@@ -152,6 +152,55 @@ main {
   display: none;
 }
 
+.repository-item{
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.repository-name {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.repository-details {
+  display: flex;
+  justify-content: space-around;
+  background-color: #7851A9;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}
+.icon span {
+  margin-left: 5px;
+}
+
+.event-list {
+  list-style: none; 
+  padding: 0;
+  margin: 20px 0;
+}
+.event-item {
+  background-color: #f0f0f0; 
+  border: 1px solid #ddd;    
+  padding: 10px;
+  margin-bottom: 10px;       
+  border-radius: 5px;        
+  font-size: 14px;       
+}
+
+.event-item strong {
+  color: #333;              
+  font-weight: bold;
+}
+
 @media (max-width: 1280px) {
   .container {
     flex-direction: column;
